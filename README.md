@@ -1,3 +1,5 @@
+**Structure of application**
+
 Frameworks 
 
 ‘org.koin:koin-android-viewmodel:2.1.6’: For Dependency Injection
