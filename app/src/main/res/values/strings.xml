@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Clear Score Tech Test</string>
+    <string name="your_credit_score_is">Your credit score is</string>
+    <string name="out_of_700">out of 700</string>
+</resources>

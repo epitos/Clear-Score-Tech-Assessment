@@ -1,0 +1,2 @@
+rootProject.name = "Clear Score Tech Test"
+include ':app'
