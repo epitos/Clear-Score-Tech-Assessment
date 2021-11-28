@@ -13,17 +13,17 @@ Frameworks
 ‘com.jackandphantom.android:circularprogressbar:1.2.0’: To display the circular view for the donut view.
 “com.squareup.okhttp3:mockwebserver:4.6.0”: Mock API responses.
 
-Architecture
+**Architecture******
 
 The project is structured using the MVVM pattern.
 
-Classes
+**Classes**
 
-Application
+**Application**
 
 CreditInfoApplication: Used to start Koin and set the modules.
 
-Model
+**Model**
 
 CoachingSummary: Holds Coaching Summary data.
 
@@ -31,11 +31,11 @@ CreditInfoReport: Holds Credit Info Report data.
 
 Response: Holds the JSON response.
 
-Repository
+**Repository**
 
 CreditInfoRepository: Handles data operations, such as getting the data from the server.
 
-DI -> Module
+**DI -> Module**
 
 AppModule: Provides the dependencies for the Retrofit and WebService.
 
@@ -43,17 +43,17 @@ RepositoryModule: Provides the dependency for the CreditInfoRepository.
 
 ViewModelModule: Provides the dependency for the CreditInfoViewModel.
 
-UI
+**UI**
 
-View
+**View**
 
 CreditInfoActivity: UI to display Donut View and credit score.
 
-Viewmodel
+**Viewmodel**
 
 CreditInfoViewModel: Holds and manages the data.
 
-Utils
+**Utils**
 
 Const: Holds base url, endpoints and other constant variables.
 
@@ -66,12 +66,12 @@ Resource: Contains data and status about loading data.
 Status: Declares data status.
 
 
-Interface
+**Interface**
 
-Data
+**Data**
 
 WebService: Contains endpoint.
 
-Android Test
+**Android Test**
 
 CreditInfoViewModelTest: Tests API call 
