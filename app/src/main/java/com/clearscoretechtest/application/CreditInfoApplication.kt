@@ -17,5 +17,6 @@ open class CreditInfoApplication: Application() {
             modules(provideDependencies())
         }
     }
-    open fun provideDependencies() = listOf(appModule, repositoryModule, viewModelModule)
+   
+    private fun provideDependencies() = listOf(appModule, repositoryModule, viewModelModule)
 }
